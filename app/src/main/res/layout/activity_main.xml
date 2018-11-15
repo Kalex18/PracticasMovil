@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btnpasar"
+        android:layout_width="174dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="212dp"
+        android:text="Pasar Parametro"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="373dp" />
+
+    <Button
+        android:id="@+id/btnfragmentos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnpasar"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="92dp"
+        android:layout_marginBottom="92dp"
+        android:text="Fragmentos"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnpasar"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="187dp"
+        android:text="ingresar"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="95dp" />
+
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnpasar"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="118dp"
+        android:text="Guardar"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="171dp" />
+
+    <Button
+        android:id="@+id/btnBuscar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="113dp"
+        android:layout_marginEnd="77dp"
+        android:layout_marginRight="77dp"
+        android:text="Buscar"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="259dp" />
+
+
+</RelativeLayout>
